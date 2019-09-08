@@ -1,0 +1,13 @@
+.spacer {
+  flex: 1 1 auto;
+}
+.mr-2 {
+  margin-right: 1rem;
+}
+.pointer {
+  cursor: pointer;
+}
+.pointer:focus {
+  border: none;
+  outline: 0;
+}
