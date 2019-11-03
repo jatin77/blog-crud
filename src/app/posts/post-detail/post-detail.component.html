@@ -39,10 +39,10 @@
         *ngIf="auth.currentUserId === post.authorId"
       >
         <button mat-icon-button (click)="editing = true">
-          <mat-icon>edit</mat-icon>
+          <mat-icon style="color:dodgerblue">edit</mat-icon>
         </button>
         <button mat-icon-button (click)="delete(post.id)">
-          <mat-icon>delete</mat-icon>
+          <mat-icon style="color:crimson">delete</mat-icon>
         </button>
       </mat-card-actions>
     </mat-card>
